@@ -31,6 +31,7 @@ plt.title("Median Salary [USD] by Age")
 plt.xlabel("Age [years]")
 plt.ylabel("Median Salary [USD]")
 
+plt.grid(True, which="both", linestyle="-", linewidth=0.1)
 plt.legend()
 
 plt.show()
